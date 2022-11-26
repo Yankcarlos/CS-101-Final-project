@@ -3,7 +3,7 @@ import random
 import os
 class board:
   def __init__(self):
-   self.hits = 16
+   self.hits = 0
    self.scount = 0
    self.board = []
    self.rows_cols = {'row':[],'col':[]}
